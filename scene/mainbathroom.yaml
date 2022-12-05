@@ -1,0 +1,9 @@
+- id: main_bathroom_light_night
+  name: Main bathroom light night
+  entities:
+    switch.ikeaoutlet2: on
+
+- id: main_bathroom_light_off
+  name: Main bathroom light off
+  entities:
+    switch.ikeaoutlet2: off

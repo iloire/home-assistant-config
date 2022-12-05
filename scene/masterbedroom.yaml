@@ -1,0 +1,82 @@
+
+- id: master_bedroom_lights_off
+  name: Master bedroom lights off
+  entities:
+    light.ikeacolorbulb1: off
+    light.ikeacolorbulb2: off
+    light.gu10color1: off
+
+- id: master_bedroom_night_mode
+  name: Master bedroom lights night mode
+  entities:
+    light.ikeacolorbulb1:
+      state: on
+      brightness: 25
+      rgb_color:
+        - 146
+        - 199
+        - 255
+    light.ikeacolorbulb2:
+      state: on
+      brightness: 25
+      rgb_color:
+        - 146
+        - 199
+        - 255
+    light.gu10color1:
+      state: on
+      brightness: 25
+      rgb_color:
+        - 146
+        - 199
+        - 255
+        
+- id: master_bedroom_bright
+  name: Master bedroom bright
+  entities:
+    light.ikeacolorbulb1:
+      state: on
+      brightness: 255
+      rgb_color:
+        - 0
+        - 0
+        - 0
+    light.ikeacolorbulb2:
+      state: on
+      brightness: 255
+      rgb_color:
+        - 0
+        - 0
+        - 0
+    light.gu10color1:   
+      state: on
+      brightness: 255
+      rgb_color:
+        - 0
+        - 0
+        - 0
+        
+- id: master_bedroom_romantic
+  name: Master bedroom romantic
+  entities:
+    light.ikeacolorbulb1:
+      state: on
+      brightness: 75
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikeacolorbulb2:
+      state: on
+      brightness: 75
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.gu10color1:
+      state: on
+      brightness: 95
+      rgb_color:
+        - 255
+        - 0
+        - 0     

@@ -1,0 +1,225 @@
+- id: office_default_light_scene
+  name: Office default light scene
+  entities:
+    switch.ikea_switch_5: on # ceiling
+    switch.ikea_switch_2: on
+    switch.ikea_switch_4: on
+    light.ikea_concrete_lamp_office:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikea_color_bulb_1:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikea_color_bulb_2:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikea_gu10_color_1:
+      state: on
+      brightness: 87
+      rgb_color:
+        - 255
+        - 0
+        - 0    
+    light.hue_play_1:
+      state: on
+      brightness: 75
+      rgb_color:
+        - 146
+        - 199
+        - 255
+    light.hue_play_2:
+      state: on
+      brightness: 75
+      rgb_color:
+        - 146
+        - 199
+        - 255
+
+- id: office_gaming_light_scene    
+  name: Office gaming scene
+  entities:
+    switch.ikea_switch_5: off # ceiling
+    switch.ikea_switch_2: on
+    switch.ikea_switch_4: on
+    light.ikea_concrete_lamp_office:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0    
+    light.ikea_color_bulb_1:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikea_color_bulb_2:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.ikea_gu10_color_1:
+      state: on
+      brightness: 87
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.hue_play_1:
+      state: on
+      brightness: 250
+      rgb_color:
+        - 0
+        - 255
+        - 0
+    light.hue_play_2:
+      state: on
+      brightness: 250
+      rgb_color:
+        - 0
+        - 255
+        - 0
+
+
+- id: office_winter_light_scene    
+  name: Winter computer scene
+  entities:
+    switch.ikea_switch_5: on # ceiling
+    switch.ikea_switch_2: off # green desk
+    switch.ikea_switch_4: on
+    light.ikea_concrete_lamp_office:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 0
+        - 0    
+    light.ikea_color_bulb_1:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 255
+        - 255
+        - 0
+    light.ikea_gu10_color_2:
+      state: on
+      brightness: 87
+      rgb_color:
+        - 255
+        - 255
+        - 0
+    light.hue_play_1:
+      state: on
+      brightness: 250
+      rgb_color:
+        - 146
+        - 199
+        - 255
+    light.hue_play_2:
+      state: on
+      brightness: 250
+      rgb_color:
+        - 146
+        - 199
+        - 255
+
+
+
+- id: office_lights_off
+  name: Office lights off scene
+  entities:
+    switch.ikea_switch_5: off # ceiling
+    switch.ikea_switch_2: off
+    switch.ikea_switch_4: off
+    light.ikea_concrete_lamp_office: off
+    light.ikea_gu10_color_1: off
+    light.hue_play_1: off
+    light.hue_play_2: off
+    light.ikea_color_bulb_1: off
+    light.ikea_color_bulb_2: off
+
+
+- id: office_reading_scene
+  name: Office reading scene
+  entities:
+    switch.ikea_switch_5: on # ceiling
+    switch.ikea_switch_2: on
+    switch.ikea_switch_4: on
+    light.ikea_concrete_lamp_office:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 246
+        - 199
+        - 255    
+    light.ikea_color_bulb_1:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 246
+        - 199
+        - 255
+    light.ikea_color_bulb_2:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 246
+        - 199
+        - 255
+    light.ikea_gu10_color_1:
+      state: on
+      brightness: 87
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.hue_play_1: off
+    light.hue_play_2: off
+
+
+- id: office_meditate
+  name: Office meditation scene
+  entities:
+    switch.ikea_switch_5: off # ceiling
+    switch.ikea_switch_2: on
+    switch.ikea_switch_4: on
+    light.ikea_color_bulb_1:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 246
+        - 199
+        - 255
+    light.ikea_color_bulb_2:
+      state: on
+      brightness: 211
+      rgb_color:
+        - 246
+        - 199
+        - 255
+    light.ikea_concrete_lamp_office: off
+    light.hue_play_1: off
+    light.hue_play_2: off
+    light.ikea_gu10_color_1:
+      state: on
+      brightness: 87
+      rgb_color:
+        - 255
+        - 0
+        - 0    

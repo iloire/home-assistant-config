@@ -52,6 +52,34 @@
         - 0
         - 0
 
+
+- id: entrance_light_night
+  name: Entrance light night
+  entities:
+    light.huecolorbulb1:
+      state: on
+      brightness: 60
+      rgb_color:
+        - 0
+        - 0
+        - 0
+
+    light.huecolorbulb2:
+      state: on
+      brightness: 60
+      rgb_color:
+        - 0
+        - 0
+        - 0
+
+    light.ikeaedisonbulb1:
+      state: on
+      brightness: 60
+      rgb_color:
+        - 0
+        - 0
+        - 0
+
 - id: entrance_light_off
   name: Entrance light off
   entities:
