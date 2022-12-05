@@ -5,16 +5,16 @@
       state: on
       brightness: 150
       rgb_color:
-        - 0
-        - 0
+        - 255
+        - 190
         - 0
 
     light.huecolorbulb2:
       state: on
       brightness: 150
       rgb_color:
-        - 0
-        - 0
+        - 255
+        - 190
         - 0
 
     light.ikeaedisonbulb1:
@@ -58,23 +58,23 @@
   entities:
     light.huecolorbulb1:
       state: on
-      brightness: 60
+      brightness: 50
       rgb_color:
-        - 0
-        - 0
+        - 255
+        - 190
         - 0
 
     light.huecolorbulb2:
       state: on
-      brightness: 60
+      brightness: 50
       rgb_color:
-        - 0
-        - 0
+        - 255
+        - 190
         - 0
 
     light.ikeaedisonbulb1:
       state: on
-      brightness: 60
+      brightness: 40
       rgb_color:
         - 0
         - 0
