@@ -3,7 +3,7 @@
   entities:
     light.huestrip1:
       state: on
-      brightness: 150
+      brightness: 110
       rgb_color:
         - 255
         - 0
@@ -11,7 +11,11 @@
     switch.ikeaoutlet1: on
     light.gui10bulbOffice1:
       state: on
-      brightness: 100
+      brightness: 150
+      kelvin: 250
+    light.gu10White1:
+      state: on
+      brightness: 150
       kelvin: 250
 
 - id: office_lights_off
@@ -20,3 +24,4 @@
     light.huestrip1: off
     switch.ikeaoutlet1: off
     light.gui10bulbOffice1: off
+    light.gu10White1: off
