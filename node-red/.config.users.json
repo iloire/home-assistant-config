@@ -16,6 +16,17 @@
                 "welcome": "3.0.2"
             }
         },
-        "menu-menu-item-sidebar": true
+        "menu-menu-item-sidebar": true,
+        "debug": {
+            "filter": "filterSelected",
+            "filteredNodes": [
+                "26bdfba65282f302",
+                "36059a72aaeb4e60",
+                "af190b21118c31f2",
+                "6d55a99ab2671147",
+                "06fc21bad63a6435",
+                "50ee26e52a3aa3a3"
+            ]
+        }
     }
 }
