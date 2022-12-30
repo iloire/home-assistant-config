@@ -16,9 +16,9 @@
                 "welcome": "3.0.2"
             }
         },
-        "menu-menu-item-sidebar": false,
+        "menu-menu-item-sidebar": true,
         "debug": {
-            "filter": "filterSelected",
+            "filter": "filterCurrent",
             "filteredNodes": [
                 "26bdfba65282f302",
                 "36059a72aaeb4e60",
