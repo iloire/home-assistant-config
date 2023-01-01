@@ -86,3 +86,22 @@
     light.huecolorbulb1: off
     light.huecolorbulb2: off
     light.ikeaedisonbulb1: off
+
+- id: entrance_romantic_mode
+  name: Entrance romantic mode
+  entities:
+    light.huecolorbulb1:
+      state: on
+      brightness: 95
+      rgb_color:
+        - 255
+        - 0
+        - 0    
+    light.huecolorbulb2:
+      state: on
+      brightness: 95
+      rgb_color:
+        - 255
+        - 0
+        - 0   
+    light.ikeaedisonbulb1: off

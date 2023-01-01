@@ -36,3 +36,17 @@
     light.huestrip1: off
     switch.ikeaoutlet1: off
     light.gu10White1: off
+    
+
+- id: office_romantic_mode
+  name: Office lights romantic mode
+  entities:
+    light.huestrip1:
+      state: on
+      brightness: 95
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    switch.ikeaoutlet1: off
+    light.gu10White1: off
