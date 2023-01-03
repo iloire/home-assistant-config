@@ -18,7 +18,7 @@
         },
         "menu-menu-item-sidebar": true,
         "debug": {
-            "filter": "filterCurrent",
+            "filter": "filterAll",
             "filteredNodes": [
                 "26bdfba65282f302",
                 "36059a72aaeb4e60",

@@ -27,6 +27,8 @@
                 "06fc21bad63a6435",
                 "50ee26e52a3aa3a3"
             ]
-        }
+        },
+        "menu-deploymenu-item-flow": true,
+        "menu-deploymenu-item-full": false
     }
 }
