@@ -9,20 +9,8 @@
   id: living_room_lights_dim
   entities:
     light.gu10white2: on
-    light.hueplaybar1:
-      state: on
-      brightness: 25
-      rgb_color:
-        - 146
-        - 199
-        - 255
-    light.hueplaybar2:
-      state: on
-      brightness: 25
-      rgb_color:
-        - 146
-        - 199
-        - 255
+    light.hueplaybar1: off
+    light.hueplaybar2: off
 
 - name: Living room lights bright scene
   id: living_room_lights_bright
@@ -62,3 +50,22 @@
         - 146
         - 199
         - 255
+
+- name: Living room romantic mode
+  id: living_room_romantic_mode
+  entities:
+    light.gu10white2: off
+    light.hueplaybar1:
+      state: on
+      brightness: 125
+      rgb_color:
+        - 255
+        - 0
+        - 0
+    light.hueplaybar2:
+      state: on
+      brightness: 125
+      rgb_color:
+        - 255
+        - 0
+        - 0
