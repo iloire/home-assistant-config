@@ -1,7 +1,7 @@
 - name: Kitchen bright
   id: kitchen_bright
   entities:
-    light.ikea_cabinet_light_1:
+    light.ikeacabinet:
       state: on
       brightness: 250
     switch.ikeaoutlet3: on
@@ -9,7 +9,7 @@
 - name: Kitchen dim
   id: kitchen_dim
   entities:
-    light.ikea_cabinet_light_1:
+    light.ikeacabinet:
       state: on
       brightness: 80
     switch.ikeaoutlet3: on
@@ -17,5 +17,5 @@
 - name: Kitchen lights off
   id: kitchen_lights_off
   entities:
-    light.ikea_cabinet_light_1: off
+    light.ikeacabinet: off
     switch.ikeaoutlet3: off
