@@ -18,7 +18,7 @@
         },
         "menu-menu-item-sidebar": true,
         "debug": {
-            "filter": "filterCurrent",
+            "filter": "filterAll",
             "filteredNodes": [
                 "26bdfba65282f302",
                 "36059a72aaeb4e60",
@@ -28,7 +28,7 @@
                 "50ee26e52a3aa3a3"
             ]
         },
-        "menu-deploymenu-item-flow": true,
-        "menu-deploymenu-item-full": false
+        "menu-deploymenu-item-flow": false,
+        "menu-deploymenu-item-full": true
     }
 }
