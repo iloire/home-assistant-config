@@ -11,7 +11,15 @@
   entities:
     light.ikeacabinet:
       state: on
-      brightness: 80
+      brightness: 120
+    switch.ikeaoutlet3: on
+    
+- name: Kitchen soft
+  id: kitchen_soft
+  entities:
+    light.ikeacabinet:
+      state: on
+      brightness: 60
     switch.ikeaoutlet3: on
 
 - name: Kitchen lights off

@@ -57,7 +57,7 @@
   entities:
     light.huecolorbulb1:
       state: on
-      brightness: 50
+      brightness: 70
       rgb_color:
         - 255
         - 190
@@ -65,7 +65,7 @@
 
     light.huecolorbulb2:
       state: on
-      brightness: 50
+      brightness: 70
       rgb_color:
         - 255
         - 190
@@ -73,7 +73,7 @@
 
     light.ikeaedisonbulb1:
       state: on
-      brightness: 40
+      brightness: 70
       rgb_color:
         - 0
         - 0
@@ -84,7 +84,7 @@
   entities:
     light.huecolorbulb1:
       state: on
-      brightness: 20
+      brightness: 30
       rgb_color:
         - 255
         - 190
@@ -92,7 +92,7 @@
 
     light.huecolorbulb2:
       state: on
-      brightness: 20
+      brightness: 30
       rgb_color:
         - 255
         - 190
@@ -100,7 +100,7 @@
 
     light.ikeaedisonbulb1:
       state: on
-      brightness: 20
+      brightness: 30
       rgb_color:
         - 0
         - 0
