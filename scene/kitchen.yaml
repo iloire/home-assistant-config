@@ -21,6 +21,14 @@
       state: on
       brightness: 60
     switch.ikeaoutlet3: on
+    
+- name: Kitchen cooking
+  id: kitchen_cooking
+  entities:
+    light.ikeacabinet:
+      state: on
+      brightness: 250
+    switch.ikeaoutlet3: off
 
 - name: Kitchen lights off
   id: kitchen_lights_off

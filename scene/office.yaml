@@ -11,7 +11,7 @@
     switch.ikeaoutlet1: on
     light.gu10White1:
       state: on
-      brightness: 150
+      brightness: 60
       kelvin: 250
 
 - id: office_gaming_scene
@@ -27,7 +27,7 @@
     switch.ikeaoutlet1: off
     light.gu10White1:
       state: on
-      brightness: 100
+      brightness: 60
       kelvin: 250
 
 - id: office_lights_off
